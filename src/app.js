@@ -13,7 +13,9 @@ const user = require('../routes/userRourtes');
 
 app.use(express.json());
 
-mongoose.connect(dbConfig.url, { useNewUrlParser: true });
+mongoose.connect(dbConfig.url, { useNewUrlParser: true }).then(()=>{
+  console.log("database connected successfully");
+})
 
 app.use(
   cors({
