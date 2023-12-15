@@ -1,4 +1,4 @@
 module.exports = {
-  url: "mongodb+srv://graphqlt:WDcWS9jmhbKezsuj@cluster0.c2lwbwt.mongodb.net/testTask?retryWrites=true&w=majority",
+  url: "mongodb+srv://todotodo:todotodo@cluster0.6nq7wvy.mongodb.net/todo?retryWrites=true&w=majority",
   secret: "poiuytrewqlkjhgfdsamnbvcxz",
 };
